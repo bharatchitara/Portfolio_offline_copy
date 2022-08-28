@@ -1,0 +1,36 @@
+
+.skills {
+  max-width: 100%;
+  margin: 40px auto;
+  display: inline;
+  text-align: center;
+}
+.skills .hr-text {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    position: relative;
+    border: 0;
+    height: 1.5em;
+}
+.skills .hr-text:before {
+  content: "";
+  background: linear-gradient(to right, transparent, #767676, transparent);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 1px;
+}
+.skills .hr-text:after {
+  content: attr(data-content);
+  position: relative;
+  display: inline;
+  /* color: black; */
+  padding: 0 0.5em;
+  line-height: 1.5em;
+  color: #767676;
+  background-color: #011627;
+}

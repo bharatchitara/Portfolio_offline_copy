@@ -1,0 +1,196 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.main-body{
+    min-height: 200vh;
+    width: 100%;
+    background: rgb(1,22,39);
+    background: radial-gradient(circle, rgba(1,22,39,1) 24%, rgba(1,11,39,1) 61%, rgba(1,22,39,1) 94%);
+}
+
+.header-template{
+    color: #fff;
+    top:0%;
+}
+
+footer{
+    width: auto;
+    color: #fff;
+    position: absolute;
+    top: 232%;
+    left: 66%;
+    transform: translate(30%,-50%) ;
+    text-align: left;
+
+}
+
+footer h4{
+    font-weight: 300;
+    font-size: 18px;
+    color: #808080;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav img {
+    width: 100px;
+    
+
+}
+
+.nav-links{
+    
+    flex:1;
+    text-align: right;
+    width: auto;
+
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    top: 10%;
+}
+
+
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:orange;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.text-box{
+    width: 45%;
+    color: #fff;
+    position: absolute;
+    top: 55%;
+    left: 42%;
+    transform: translate(-80%,-50%) ;
+    text-align: left;
+}
+
+.text-box h3{
+    font-size: 28px;
+    font-weight: 200;
+
+}
+
+.text-box h2{
+    font-size: 34px;
+
+}
+
+.portfolio-img{
+    width: 30%;
+    position: absolute;
+    top: 42%;
+    right:0%;
+    transform: translate(-22%,-35%) ;
+    text-align: center;
+
+}
+
+
+.text-box h1{
+    
+    margin: 10px 0 40px;
+    font-size: 83px;
+    font-weight: 600;
+    color: #fff;
+    
+
+}
+
+/* Style for about page */
+
+.about-text-box{
+    width: 80%;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 44%;
+    transform: translate(-47%,-50%) ;
+    text-align: left;
+
+}
+
+.about-text-box h3{
+    font-size: 22px;
+    font-weight: 200;
+
+}
+
+.techs1{
+    color: #fff;
+    width: 40%;
+    position: absolute;
+    top: 69%;
+    left: 24%;
+    transform: translate(-44%,-50%) ;
+    text-align: left;
+}
+
+.techs1 ul li{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500
+}
+
+
+.techs2{
+    color: #fff;
+    width: 40%;
+    position: absolute;
+    top: 69%;
+    left: 24%;
+    transform: translate(56%,-50%) ;
+    text-align: left;
+}
+
+.techs2 ul li{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500
+}
+
+.timeline-body{
+    height: flex;
+    color: #fff;
+    width: auto;
+    position: absolute;
+    top: 168%;
+    left: 40%;
+    transform: translate(15%,-50%) ;
+    font-size: 20px;
+    text-align: left;
+}
