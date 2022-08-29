@@ -1,6 +1,15 @@
-const toggleButton = document.getElementsByClassName('toggle-button')[0]
-const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+function openNav() {
+  document.getElementById("pf-header-sidenav").style.width = "100%";
+}
 
-toggleButton.addEventListener('click', () => {
-  navbarLinks.classList.toggle('active')
-})
+function closeNav() {
+  document.getElementById("pf-header-sidenav").style.width = "0%";
+}
+
+var w = window.innerWidth;
+var h = window.innerHeight;
+
+var x = document.getElementById("demo");
+console.log("Browser width: " + w + ", height: " + h + ".");
+
+
